@@ -7,10 +7,10 @@
   </a>
 </p>
 
-- 🌱 Expanding my skills in **Next.js**, **Three.js**, and **Web Performance Optimization**
-- 💬 Ask me about **React.js**, **Node.js**, **SEO**, and **Full Stack Development**
-- 🛠 I enjoy building **scalable web applications** and contributing to **open-source projects**
-- ⚡ Fun fact: I'm always exploring **new tech trends** and enjoy solving challenging **algorithm problems**
+- 🌱 **Currently Expanding Skills**: Exploring **Next.js**, **Three.js**, and **Web Performance Optimization**
+- 💬 **Ask Me About**: **React.js**, **Node.js**, **SEO**, and **Full Stack Development**
+- 🛠 **What I Enjoy**: Building **scalable web applications** and contributing to **open-source projects**
+- ⚡ **Fun Fact**: I'm constantly exploring new tech trends and love solving challenging **algorithm problems**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
