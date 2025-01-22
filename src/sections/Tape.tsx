@@ -5,7 +5,27 @@ const words = [
   "Secure",
   "Scalable",
   "Responsive",
+  "Efficient",
+  "Flexible",
+  "Robust",
+  "Dynamic",
+  "Customizable",
+  "Optimized",
+  "Seamless",
+  "User-friendly",
+  "Intuitive",
+  "Innovative",
+  "Elegant",
+  "Modular",
+  "Extensible",
+  "Cross-platform",
+  "Versatile",
+  "Adaptable",
+  "Resilient",
+  "Powerful",
+  "Lightweight",
 ];
+
 import StarIcon from "@/assets/icons/star.svg";
 export const TapeSection = () => {
   return (
@@ -15,7 +35,7 @@ export const TapeSection = () => {
         <div className="flex flex-none gap-4 py-3">
           <div className="flex gap-4 items-center">
             {words.map((word) => (
-              <div key={word}>
+              <div key={word} className="flex gap-1 items-center">
                 <span className="text-gray-900 uppercase font-extrabold text-sm">{word}</span>
                 <StarIcon classname="size-6 text-gray-900 -rotate-12" />
               </div>
