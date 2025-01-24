@@ -88,16 +88,14 @@ export const AboutSection = () => {
             </div>
           </Card>
           <Card className="h-[320px] p-0">
-              <CardHeader
-                title="My Toolbox"
-                description="Explore the technologies and tools i use to create exceptional
+            <CardHeader
+              title="My Toolbox"
+              description="Explore the technologies and tools i use to create exceptional
                 digital experiences."
-                className="px-6 pt-6"
-              />
-              <Toolboxitems items={toolboxItems} />
-              <Toolboxitems items={toolboxItems} />
-
-
+              className="px-6 pt-6"
+            />
+            <Toolboxitems items={toolboxItems} className="mt-6" />
+            <Toolboxitems items={toolboxItems} className="mt-6 " />
           </Card>
           <Card>
             <div>
