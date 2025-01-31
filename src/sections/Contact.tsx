@@ -11,7 +11,7 @@ export const ContactSection = () => {
               backgroundImage: `url(${grainImage})`,
             }}
           ></div>
-          <div className="flex flex-col md:flex-row gap-8 md:gap-16 justify-center">
+          <div className="flex flex-col md:flex-row gap-8 md:gap-16 justify-center items-center">
             <div>
               <h2 className="font-serif text-2xl md:text-3xl">
                 Let's Create something amazing together

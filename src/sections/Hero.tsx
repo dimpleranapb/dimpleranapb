@@ -75,7 +75,7 @@ spinDuration?: number; */}
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
             Building Exceptional User Experiences
           </h1>
-          <p className="mt-4 text-center text-white/60 md:text-lg">
+          <p className="mt-4 text-center text-white/60 md:text-lg ">
             I'm a software engineer who specializes in building exceptional user
             experiences. I'm passionate about creating products that are both
             beautiful and functional.
@@ -86,7 +86,7 @@ spinDuration?: number; */}
             <span className="font-semibold">Explore My Work</span>
             <ArrowDown className="size-4" />
           </button>
-          <button className="inline-flex items-center gap-2 border bg-white px-6 h-12 rounded-xl mt-4 text-gray-900">
+          <button className="inline-flex items-center gap-2 border bg-white px-6 h-12 rounded-xl text-gray-900">
             <span>👋</span>
             <span className="font-semibold">Let's connect</span>
           </button>
