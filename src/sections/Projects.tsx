@@ -1,6 +1,9 @@
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import cryptoBarImage from "@/assets/images/cryptoBarImage.webp"
+import melodifyImage from "@/assets/images/Melodify.webp"
+import feedbackAppImage from '@/assets/images/suggestion.webp'
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -9,28 +12,47 @@ import { SectionHeader } from "@/components/SectionHeader";
 import Card from "@/components/Card";
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Personal Project",
+    year: "2024",
+    title: "CryptoBar - Cryptocurrency Tracking Platform",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Built a real-time cryptocurrency tracking app with live price updates" },
+      { title: "Implemented Firebase authentication for secure user watchlists" },
+      { title: "Optimized for fast performance and deployed on Vercel" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://crypto-bar-alpha.vercel.app/",
+    code: "https://github.com/dimpleranapb/CryptoBar",
+    image: cryptoBarImage, // Replace with actual image import
+    alt: "CryptoBar - Real-time Cryptocurrency Tracking App"
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Personal Project",
+    year: "2024",
+    title: "Melodify - Music Teaching Academy Platform",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Designed a responsive platform with modern UI/UX and engaging animations" },
+      { title: "Utilized Next.js, TypeScript, and Tailwind CSS for scalability" },
+      { title: "Ensured mobile-first optimization for better accessibility" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://melodifyschool.vercel.app/",
+    code: "https://github.com/dimpleranapb/Melodify",
+    image: melodifyImage, // Replace with actual image import
+    alt: "Melodify - Music Teaching Academy Platform"
+  },
+  
+  {
+    company: "Chaupal OTT",
+    year: "2024",
+    title: "Anonymous Feedback App for HR",
+    results: [
+      { title: "Developed a secure feedback collection app for employees" },
+      { title: "Used Next.js, MongoDB, and NextAuth for authentication" },
+      { title: "Integrated AI-powered suggestions for better HR insights" },
+    ],
+    link: "#", // Add actual link if deployed
+    code: "#", // Add actual GitHub repo if available
+    image: feedbackAppImage, // Replace with actual image import
+    alt: "Anonymous Feedback App for HR"
   },
   {
     company: "Quantum Dynamics",
@@ -45,6 +67,7 @@ const portfolioProjects = [
     image: aiStartupLandingPage,
   },
 ];
+
 
 export const ProjectsSection = () => {
   return (

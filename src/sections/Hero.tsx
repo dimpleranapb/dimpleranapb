@@ -67,28 +67,27 @@ spinDuration?: number; */}
               <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
             </div>
             <div className="text-sm font-medium">
-              Available for new projects
-            </div>
+            Open to new opportunities            </div>
           </div>
         </div>
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            Building Exceptional User Experiences
+          Crafting Scalable & High-Performance Web Apps
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg ">
-            I'm a software engineer who specializes in building exceptional user
-            experiences. I'm passionate about creating products that are both
-            beautiful and functional.
+          Hi, I'm Dimple Rana, a <strong>Next.js Developer</strong> passionate about
+            creating <strong>SEO-friendly</strong>, responsive, and high-performing web applications.
+            I specialize in <strong>React, Node.js, and MongoDB</strong>.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
           <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
-            <span className="font-semibold">Explore My Work</span>
+            <span className="font-semibold">View My Projects</span>
             <ArrowDown className="size-4" />
           </button>
           <button className="inline-flex items-center gap-2 border bg-white px-6 h-12 rounded-xl text-gray-900">
             <span>👋</span>
-            <span className="font-semibold">Let's connect</span>
+            <span className="font-semibold">Hire Me</span>
           </button>
         </div>
       </div>
