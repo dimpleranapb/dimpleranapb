@@ -1,9 +1,7 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
-import cryptoBarImage from "@/assets/images/cryptoBarImage.webp"
-import melodifyImage from "@/assets/images/Melodify.webp"
-import feedbackAppImage from '@/assets/images/suggestion.webp'
+import cryptoBarImage from "@/assets/images/cryptoBarImage.webp";
+import melodifyImage from "@/assets/images/Melodify.webp";
+import feedbackAppImage from "@/assets/images/suggestion.webp";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -16,30 +14,40 @@ const portfolioProjects = [
     year: "2024",
     title: "CryptoBar - Cryptocurrency Tracking Platform",
     results: [
-      { title: "Built a real-time cryptocurrency tracking app with live price updates" },
-      { title: "Implemented Firebase authentication for secure user watchlists" },
+      {
+        title:
+          "Built a real-time cryptocurrency tracking app with live price updates",
+      },
+      {
+        title: "Implemented Firebase authentication for secure user watchlists",
+      },
       { title: "Optimized for fast performance and deployed on Vercel" },
     ],
     link: "https://crypto-bar-alpha.vercel.app/",
     code: "https://github.com/dimpleranapb/CryptoBar",
-    image: cryptoBarImage, // Replace with actual image import
-    alt: "CryptoBar - Real-time Cryptocurrency Tracking App"
+    image: cryptoBarImage,
+    alt: "CryptoBar - Real-time Cryptocurrency Tracking App",
   },
   {
     company: "Personal Project",
     year: "2024",
     title: "Melodify - Music Teaching Academy Platform",
     results: [
-      { title: "Designed a responsive platform with modern UI/UX and engaging animations" },
-      { title: "Utilized Next.js, TypeScript, and Tailwind CSS for scalability" },
+      {
+        title:
+          "Designed a responsive platform with modern UI/UX and engaging animations",
+      },
+      {
+        title: "Utilized Next.js, TypeScript, and Tailwind CSS for scalability",
+      },
       { title: "Ensured mobile-first optimization for better accessibility" },
     ],
     link: "https://melodifyschool.vercel.app/",
     code: "https://github.com/dimpleranapb/Melodify",
-    image: melodifyImage, // Replace with actual image import
-    alt: "Melodify - Music Teaching Academy Platform"
+    image: melodifyImage,
+    alt: "Melodify - Music Teaching Academy Platform",
   },
-  
+
   {
     company: "Chaupal OTT",
     year: "2024",
@@ -49,10 +57,10 @@ const portfolioProjects = [
       { title: "Used Next.js, MongoDB, and NextAuth for authentication" },
       { title: "Integrated AI-powered suggestions for better HR insights" },
     ],
-    link: "#", // Add actual link if deployed
-    code: "#", // Add actual GitHub repo if available
-    image: feedbackAppImage, // Replace with actual image import
-    alt: "Anonymous Feedback App for HR"
+    link: "#",
+    code: "#",
+    image: feedbackAppImage,
+    alt: "Anonymous Feedback App for HR",
   },
   {
     company: "Quantum Dynamics",
@@ -67,7 +75,6 @@ const portfolioProjects = [
     image: aiStartupLandingPage,
   },
 ];
-
 
 export const ProjectsSection = () => {
   return (
@@ -85,7 +92,7 @@ export const ProjectsSection = () => {
               className="px-8 pt-8 mt-2 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky "
               key={project.title}
               style={{
-                top: `calc(64px + ${projectIndex* 40}px`
+                top: `calc(64px + ${projectIndex * 40}px`,
               }}
             >
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
@@ -101,7 +108,6 @@ export const ProjectsSection = () => {
                   <ul className="flex flex-col gap-4 mt-4 md:mt-5">
                     {project.results.map((result) => (
                       <span>
-                        {" "}
                         <li className="flex gap-2 text-sm md:text-base text-white/50">
                           <CheckCircleIcon className="size-5 md:size-6" />
                           {result.title}
