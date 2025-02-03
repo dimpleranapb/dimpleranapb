@@ -75,7 +75,7 @@ spinDuration?: number; */}
           Crafting Scalable & High-Performance Web Apps
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg ">
-          Hi, I'm Dimple Rana, a <strong>Next.js Developer</strong> passionate about
+          Hi, I&apos;m Dimple Rana, a <strong>Next.js Developer</strong> passionate about
             creating <strong>SEO-friendly</strong>, responsive, and high-performing web applications.
             I specialize in <strong>React, Node.js, and MongoDB</strong>.
           </p>
