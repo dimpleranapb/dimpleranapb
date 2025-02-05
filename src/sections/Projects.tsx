@@ -71,14 +71,14 @@ const portfolioProjects = [
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "",
     image: aiStartupLandingPage,
   },
 ];
 
 export const ProjectsSection = ( ) => {
   return (
-    <section className="pb-16 lg:py-24">
+    <section className="pb-16 lg:py-24" id="projects">
       <div className="container ">
         <SectionHeader
           eyebrow=" Real-world Results"
