@@ -89,7 +89,7 @@ export const ProjectsSection = ( ) => {
         <div className="flex flex-col mt-10 md:mt-20 gap-20">
           {portfolioProjects.map((project, projectIndex) => (
             <Card
-              className="px-8 pt-8 mt-2 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky "
+              className="px-8 pt-8 mt-2 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky"
               key={project.title}
               style={{
                 top: `calc(64px + ${projectIndex * 40}px`,
@@ -126,7 +126,7 @@ export const ProjectsSection = ( ) => {
                   <Image
                     src={project.image}
                     alt={project.title}
-                    className="mt-8 -mb-4 md:-mb-0 lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none"
+                    className="mt-8 -mb-4 md:-mb-0 lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none rounded-[22px]"
                   />
                 </div>
               </div>

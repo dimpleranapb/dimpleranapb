@@ -2,19 +2,19 @@ import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg'
 const footerLinks = [
   {
     title :"Youtube",
-    href :"#",
+    href :"https://www.youtube.com/@Codetorank",
   },
   {
     title :"Github",
-    href :"#",
+    href :"https://github.com/dimpleranapb",
   },
   {
     title :"Twitter",
-    href :"#",
+    href :"https://x.com/dimpleranax",
   },
   {
     title :"LinkedIn",
-    href :"#",
+    href :"https://www.linkedin.com/in/dimple-rana-pb/",
   },
  
 ];
