@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Card from '@/components/Card';
-import {CardHeader} from '@/components/CardHeader';
+import { CardHeader } from '@/components/CardHeader';
 
 const experiences = [
   {
@@ -33,33 +33,38 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <div className="py-16 w-full flex flex-col items-center">
+    <div className="py-16 px-4 w-full flex flex-col items-center">
       <h1 className="text-3xl font-bold text-center mb-8">
         My <span className="text-purple-500">Work Experience</span>
       </h1>
-      <div className="relative flex flex-col items-center gap-6">
-        {experiences.map((exp, index) => (
+
+      <div className="flex flex-col items-center gap-10 w-full max-w-3xl">
+        {experiences.map((exp) => (
           <Card
             key={exp.id}
-            className="px-6 pt-6 mt-2 pb-0 md:pt-8 md:px-8 lg:pt-12 lg:px-14 w-full max-w-2xl"
-            style={{ top: `calc(48px + ${index * 30}px)` }}
+            className="px-6 pt-6 pb-4 md:pt-8 md:px-8 lg:pt-10 lg:px-12 w-full rounded-xl shadow-lg bg-gray-800"
           >
-            <div className="lg:grid lg:grid-cols-2 lg:gap-8">
-              <div className="lg:pb-8">
+            <div className="flex flex-col lg:flex-row items-center lg:items-start lg:gap-6">
+              {/* Left Section */}
+              <div className="flex-1 text-center lg:text-left">
                 <CardHeader title={exp.company} description={exp.duration} />
-                <h3 className="font-serif text-xl mt-2 md:text-3xl">
+                <h3 className="font-serif text-lg md:text-2xl font-semibold mt-2 text-white">
                   {exp.title}
                 </h3>
-                <hr className="border-t border-white/10 mt-3 md:mt-4" />
-                <p className="text-gray-300 mt-3 md:mt-4 text-sm md:text-base">{exp.desc}</p>
+                <hr className="border-t border-gray-700 mt-3 md:mt-4" />
+                <p className="text-gray-300 mt-3 md:mt-4 text-sm md:text-base">
+                  {exp.desc}
+                </p>
               </div>
-              <div className="relative flex justify-center lg:justify-end">
+
+              {/* Right Section (Image) */}
+              <div className="mt-6 lg:mt-0">
                 <Image
                   src={exp.thumbnail}
                   alt={exp.company}
-                  className="mt-6 -mb-3 md:-mb-0 lg:mt-0 lg:absolute lg:h-32 lg:w-32 rounded-[18px]"
-                  width={128}
-                  height={128}
+                  className="rounded-xl shadow-md"
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>
