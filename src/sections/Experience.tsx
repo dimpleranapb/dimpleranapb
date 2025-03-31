@@ -2,6 +2,9 @@
 
 import Image from 'next/image';
 import Card from '@/components/Card';
+import chaupal from '@/assets/images/chaupal.png';
+import gsquare from '@/assets/images/gsquare.jpg';
+import freelance from '@/assets/images/freelance.webp';
 import { CardHeader } from '@/components/CardHeader';
 
 const experiences = [
@@ -11,7 +14,7 @@ const experiences = [
     company: 'Chaupal OTT',
     duration: 'Nov 2024 - Present',
     desc: 'Managing blogging sites, landing pages, SEO, and developing internal tools like an anonymous feedback app using Next.js, MongoDB, and NextAuth.',
-    thumbnail: '/images/chaupal.png',
+    thumbnail: chaupal,
   },
   {
     id: 2,
@@ -19,7 +22,7 @@ const experiences = [
     company: 'Gsquare Web Technologies',
     duration: 'Aug 2024 - Nov 2024',
     desc: 'Worked on full-stack development with React, Node.js, MongoDB, and implemented RESTful APIs while collaborating on responsive web applications.',
-    thumbnail: '/images/gsquare.jpg',
+    thumbnail: gsquare,
   },
   {
     id: 3,
@@ -27,7 +30,7 @@ const experiences = [
     company: 'Self-Employed',
     duration: '2021 - 2023',
     desc: 'Developed and managed WordPress blogs, implemented SEO strategies, and monetized through Google AdSense.',
-    thumbnail: '/images/freelance.webp',
+    thumbnail: freelance,
   },
 ];
 
