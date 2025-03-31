@@ -19,7 +19,7 @@ const experiences = [
     company: 'Gsquare Web Technologies',
     duration: 'Aug 2024 - Nov 2024',
     desc: 'Worked on full-stack development with React, Node.js, MongoDB, and implemented RESTful APIs while collaborating on responsive web applications.',
-    thumbnail: '/images/gsquare.png',
+    thumbnail: '/images/gsquare.jpg',
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const experiences = [
     company: 'Self-Employed',
     duration: '2021 - 2023',
     desc: 'Developed and managed WordPress blogs, implemented SEO strategies, and monetized through Google AdSense.',
-    thumbnail: '/images/freelance.png',
+    thumbnail: '/images/freelance.webp',
   },
 ];
 
